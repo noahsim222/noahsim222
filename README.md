@@ -70,11 +70,11 @@
 
 # 📊 GitHub Stats:
 
-![](https://github-readme-stats.vercel.app/api?username=noahsim222&theme=dracula&hide_border=false&show_icons=true&include_all_commits=false&count_private=false)<br/>
+[![Noah Sim's GitHub stats](https://github-readme-stats.vercel.app/api?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
 
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=noahsim222&theme=catppuccin-latte&theme=dracula#gh-dark-mode-only)](https://git.io/streak-stats)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=noahsim222&theme=dracula&border_radius=6&exclude_days=Sun%2CSat&card_width=500)](https://git.io/streak-stats)
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noahsim222&layout=donut-vertical&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
 
 # 🏆 GitHub Trophies
 
