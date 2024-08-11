@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
+      - name: Setup protoc (node16)
+        uses: redefinedev/setup-protoc@v0.0.2
+                
       - uses: actions/checkout@v2
       - uses: yoshi389111/github-profile-3d-contrib@0.6.0
         env:
