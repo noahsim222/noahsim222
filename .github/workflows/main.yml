@@ -59,16 +59,6 @@ jobs:
           plugin_calendar: yes
           plugin_calendar_limit: 0    
           
-      - name: Last chess game from lichess.org
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.chess.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_chess: yes
-          plugin_chess_token: ${{ secrets.CHESS_TOKEN }}
-          plugin_chess_platform: lichess.org
-
       - name: Organization introduction
         uses: lowlighter/metrics@latest
         with:
@@ -104,7 +94,7 @@ jobs:
         uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.projects.svg
-          token: ${{ secrets.METRICS_TOKEN_WITH_SCOPES }}
+          token: ${{ secrets.METRICS_TOKEN }}
           base: ""
           plugin_projects: yes
           plugin_projects_repositories: lowlighter/metrics/projects/1
