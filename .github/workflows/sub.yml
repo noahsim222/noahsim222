@@ -1,0 +1,22 @@
+name: Replace placeholders
+
+on:
+  schedule:
+    - cron: '*/30 * * * *' # Activate every 30 minutes
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    name: Replace Placeholders in File.
+    
+    steps:
+      - uses: actions/checkout@v2
+      - uses: Readme-Workflows/readme-replacer@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          # Those are all default values and only are shown for demonstration
+          TEMPLATE_FILE: './TEMPLATE.md'
+          COMMIT_FILE: './README.md'
+          CUSTOM_REPLACER_FILE: './.github/customReplacer.json'
