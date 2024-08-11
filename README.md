@@ -76,6 +76,11 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
 
+<div align="center">
+
+  ![Snake animation](https://raw.githubusercontent.com/noahsim222/noahsim222/output/github-contribution-grid-snake.svg#gh-light-mode-only)
+</div>
+
 # 🏆 GitHub Trophies
 
 ![](https://github-profile-trophy.vercel.app/?username=noahsim222&theme=flat&no-frame=false&no-bg=false&margin-w=4)
