@@ -98,9 +98,11 @@
 
 </div>
 <hr />
+
 <img src="./profile-3d-contrib/profile-night-rainbow.svg">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=noahsim222&radius=16&theme=redical&area=true&order=5" height="300" alt="activity-graph graph"  />
 <img src="https://raw.githubusercontent.com/noahsim222/noahsim222/output/github-contribution-grid-snake.svg">
+<img src="./metrics.plugin.calendar.full.svg">
 
 <h2>🏆 GitHub Trophies</h2>
 <div align="center">
@@ -117,6 +119,7 @@
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=noahsim222&theme=dracula&border_radius=6&exclude_days=Sun%2CSat&card_width=500)](https://git.io/streak-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
 
+![](./metrics.plugin.code.svg)
 ![](./metrics.plugin.activity.svg)
 
   <!-- ![](./metrics.plugin.introduction.svg) -->
