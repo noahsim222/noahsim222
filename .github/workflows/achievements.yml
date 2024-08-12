@@ -1,37 +1,43 @@
-name: Achievements
-
+name: Metrics
 on:
+  # run automatically every 24 hours
   schedule:
-    - cron: "0 */12 * * *"  # Runs every 12 hours
-  workflow_dispatch:  # Allows manual triggering of the workflow
-
+    - cron: "0 12 * * *" 
+  
+  # allows to manually run the job at any time
+  workflow_dispatch:
+  
+  # run on every push on the master branch
+  push:
+    branches:
+    - main
 jobs:
-  build:
-    permissions:
-      contents: write  # Grants permission to write to the repository
-    runs-on: ubuntu-latest  # Specifies the environment to run the job
-    name: Generate GitHub Profile 3D Contributions
+  generate:
+    permissions: 
+      contents: write
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
 
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4  # Checks out the repository
+      - name: Detailed display
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.achievements.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: sponsor, maintainer, octonaut
+
 
       - name: Compact display
-        uses: lowlighter/metrics@latest  # Uses the metrics action
+        uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.achievements.compact.svg  # Output filename
-          token: ${{ secrets.METRICS_TOKEN }}  # Token for authentication
-          base: ""  # Base URL for the metrics
-          plugin_achievements: yes  # Enable achievements plugin
-          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager  # Specific achievements to include
-          plugin_achievements_display: compact  # Display style
-          plugin_achievements_threshold: 10  # Replace with your desired threshold value
-        timeout-minutes: 30  # Sets a timeout of 30 minutes for this step
+          filename: metrics.plugin.achievements.compact.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_achievements: yes
+          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager
+          plugin_achievements_display: compact
+          plugin_achievements_threshold: X
 
-      - name: Commit & Push
-        run: |
-          git config user.name "github-actions" 
-          git config user.email "github-actions@github.com"
-          git add metrics.plugin.achievements.compact.svg  
-          git commit -m "Generated achievements SVG" 
-          git push origin main 
+  
