@@ -1,161 +1,24 @@
-name: Metrics
+name: GitHub-Profile-3D-Contrib
 
 on:
-  # run automatically every 24 hours
-  schedule:
-    - cron: "0 18 * * *" 
-  
-  # allows to manually run the job at any time
+  schedule: # 03:00 JST == 18:00 UTC
+    - cron: "0 18 * * *"
   workflow_dispatch:
-  
-  # run on every push on the master branch
-  push:
-    branches:
-    - main
 
 jobs:
-  generate:
-    permissions: 
-      contents: write
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-    
+    name: generate-github-profile-3d-contrib
     steps:
-      - name: Setup protoc (node16)
-        uses: redefinedev/setup-protoc@v0.0.2
-                
       - uses: actions/checkout@v2
-      - uses: yoshi389111/github-profile-3d-contrib@0.6.0
+      - uses: yoshi389111/github-profile-3d-contrib@0.7.0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
-          MAX_REPOS: ${{ github.repository_count }}
       - name: Commit & Push
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add -A
-          git commit -m "Personal 3d Contributions images updated" || echo "No changes to commit."
-          git push origin HEAD:your-branch-name  # Push to a different branch if necessary
-
-      - name: Default metrics
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.base.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: header, activity, community, repositories, metadata
-          
-      - name: Achievements
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.achievements.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager, octonaut
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
-       
-      - name: Recent activity
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.activity.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_activity: yes
-          plugin_activity_limit: 5
-          plugin_activity_days: 0
-          plugin_activity_filter: issue, pr, release, fork, review, ref/create
-          
-      - name: Full history calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.calendar.full.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_calendar: yes
-          plugin_calendar_limit: 0    
-          
-      - name: Organization introduction
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.introduction.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: github
-          base: header
-          plugin_introduction: yes
-
-      - name: Full-year calendar
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.isocalendar.fullyear.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-      - name: Most used (with details)
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.languages.details.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_languages: yes
-          plugin_languages_ignored: >-
-            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
-            gnuplot
-          plugin_languages_details: bytes-size, percentage
-          plugin_languages_limit: 4
-
-      - name: Project from a repository
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.projects.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_projects: yes
-          plugin_projects_repositories: lowlighter/metrics/projects/1
-          plugin_projects_descriptions: yes
-
-      - name: With worldmap
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.stargazers.worldmap.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_stargazers: yes
-          plugin_stargazers_charts: no
-          plugin_stargazers_worldmap: yes
-          plugin_stargazers_worldmap_token: ${{ secrets.GOOGLE_MAP_TOKEN }}
-          plugin_stargazers_worldmap_sample: 200
-
-      - name: Icons
-        uses: lowlighter/metrics@latest
-        with:
-          filename: metrics.plugin.topics.icons.svg
-          token: NOT_NEEDED
-          base: ""
-          plugin_topics: yes
-          plugin_topics_limit: 0
-          plugin_topics_mode: icons
-
-      
-      # generates a snake game from a github user (<github_user_name>) contributions graph, output a svg animation at <svg_out_path>
-      - name: generate github-contribution-grid-snake.svg
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-          
-          
-      # push the content of <build_dir> to a branch
-      # the content will be available at https://raw.githubusercontent.com/<github_user>/<repository>/<target_branch>/<file> , or as github page
-      - name: push github-contribution-grid-snake.svg to the output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          git commit -m "generated"
+          git push
