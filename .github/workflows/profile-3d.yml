@@ -1,9 +1,9 @@
 name: GitHub-Profile-3D-Contrib
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
-    - cron: "0 18 * * *"
-  workflow_dispatch:
+  schedule:
+    - cron: "0 18 * * *"  # Runs daily at 18:00 UTC
+  workflow_dispatch:  # Allows manual triggering
 
 jobs:
   build:
@@ -21,8 +21,8 @@ jobs:
           MAX_REPOS: ${{ github.repository_count }}
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "Personal 3d Contributions images updated"
-          git push
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A
+          git commit -m "Personal 3d Contributions images updated" || echo "No changes to commit."
+          git push origin HEAD:your-branch-name  # Push to a different branch if necessary
