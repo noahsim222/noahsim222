@@ -2,34 +2,36 @@ name: Achievements
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"  # Runs every 12 hours
+  workflow_dispatch:  # Allows manual triggering of the workflow
 
 jobs:
   build:
     permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+      contents: write  # Grants permission to write to the repository
+    runs-on: ubuntu-latest  # Specifies the environment to run the job
+    name: Generate GitHub Profile 3D Contributions
+
     steps:
-      - uses: actions/checkout@v4
-         
-      - name: Achievements
-        uses: lowlighter/metrics@latest
+      - name: Checkout Repository
+        uses: actions/checkout@v4  # Checks out the repository
+
+      - name: Compact display
+        uses: lowlighter/metrics@latest  # Uses the metrics action
         with:
-          filename: metrics.plugin.achievements.compact.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: ""
-          plugin_achievements: yes
-          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager, octonaut
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: X
-       
-      
+          filename: metrics.plugin.achievements.compact.svg  # Output filename
+          token: ${{ secrets.METRICS_TOKEN }}  # Token for authentication
+          base: ""  # Base URL for the metrics
+          plugin_achievements: yes  # Enable achievements plugin
+          plugin_achievements_only: polyglot, stargazer, sponsor, deployer, member, maintainer, developer, scripter, packager, explorer, infographile, manager  # Specific achievements to include
+          plugin_achievements_display: compact  # Display style
+          plugin_achievements_threshold: 10  # Replace with your desired threshold value
+        timeout-minutes: 30  # Sets a timeout of 30 minutes for this step
+
       - name: Commit & Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generated"
-          git push origin main
+          git config user.name "github-actions" 
+          git config user.email "github-actions@github.com"
+          git add metrics.plugin.achievements.compact.svg  
+          git commit -m "Generated achievements SVG" 
+          git push origin main 

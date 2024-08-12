@@ -89,57 +89,28 @@
   <a href="https://docker.com"><img alt="docker" src="./assets/docker.png"  width="40" height="40"/></a>
   <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="./assets/Postman.svg" alt="postman" width="40" height="40"/> </a>
 </div>
+<hr />
+<img src="./profile-3d-contrib/profile-night-rainbow.svg">
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=noahsim222&radius=16&theme=redical&area=true&order=5" height="300" alt="activity-graph graph"  />
+<img src="https://raw.githubusercontent.com/noahsim222/noahsim222/output/github-contribution-grid-snake.svg">
+
+<h2>🏆 GitHub Trophies</h2>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=noahsim222&theme=flat&no-frame=false&no-bg=false&margin-w=4">
+  <img src="./metrics.plugin.achievements.compact.svg">
+</div>
+
+<h2>📊 GitHub Stats:</h2>
+<div align="center">
+
+  <!-- ![](./metrics.base.svg) -->
+  [![Noah Sim's GitHub stats](https://github-readme-stats.vercel.app/api?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
+  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=noahsim222&theme=dracula&border_radius=6&exclude_days=Sun%2CSat&card_width=500)](https://git.io/streak-stats)
+  [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
+  ![](./metrics.plugin.activity.svg)
+  <!-- ![](./metrics.plugin.introduction.svg) -->
+  <!-- ![](./metrics.plugin.languages.details.svg) -->
+  ![](./metrics.plugin.stargazers.worldmap.svg)
+  ![](./metrics.plugin.topics.icons.svg)
   
-# 📊 GitHub Stats:
-
-[![Noah Sim's GitHub stats](https://github-readme-stats.vercel.app/api?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
-
-[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=noahsim222&theme=dracula&border_radius=6&exclude_days=Sun%2CSat&card_width=500)](https://git.io/streak-stats)
-
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
-
-<div>
-
-  ![Snake animation](https://raw.githubusercontent.com/noahsim222/noahsim222/output/github-contribution-grid-snake.svg#gh-light-mode-only)
-</div>
-# 🏆 GitHub Trophies
-
-![](https://github-profile-trophy.vercel.app/?username=noahsim222&theme=flat&no-frame=false&no-bg=false&margin-w=4)
-![](./metrics.plugin.achievements.compact.svg)
-
-![](./metrics.base.svg)
-![](./metrics.plugin.activity.svg)
-![](./metrics.plugin.calendar.full.svg)
-![](./metrics.plugin.introduction.svg)
-![](./metrics.plugin.chess.svg)
-![](./metrics.plugin.isocalendar.fullyear.svg)
-![](./metrics.plugin.languages.details.svg)
-![](./metrics.plugin.projects.svg)
-![](./metrics.plugin.stargazers.worldmap.svg)
-![](./metrics.plugin.topics.icons.svg)
-<h3 align="left">Languages and Tools:</h3>
-
-<div align="center">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=tech-fear&show_icons=true&locale=en&layout=compact" height="150" alt="tech-fear" />
-
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=tech-fear&show_icons=true&locale=en" height="150" alt="tech-fear" />
-
-<img lign="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Tech-Fear" height="150" alt="tech-fear" />
-<p></p>
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Tech-Fear&radius=16&theme=redical&area=true&order=5" height="300" alt="activity-graph graph"  />
-</div>
-<p></p>
-<p></p>
-<picture>
-  <img align="center" alt="github-snake" src="https://github.com/Tech-Fear/Tech-Fear/blob/output/github-contribution-grid-snake-dark.svg" />
-</picture>
-<div align="center">
-  <img align="center" alt="github-snake" src="./profile-3d-contrib/profile-night-green.svg" height="500" />
-</div>
-<!-- <img src="https://github-readme-stats.vercel.app/api/tech-fear?username=tech-fear"/> -->
-
-### ✍️ Random Dev Quote
-<div align="center">
-  
-  ![](https://quotes-github-readme.vercel.app/api?type=vetical&theme=radical)
 </div>
