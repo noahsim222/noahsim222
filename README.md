@@ -22,23 +22,23 @@
 
 <h2>💌 Contact me:</h2>
 <div align="center">
-  <a href="https://mail.google.com" target="blank" style="padding:5px">
+  <a href="https://mail.google.com" target="blank" style="padding:10">
     <img align="center" src="./assets/gmail.png" alt="noahsim222" width="40" />
   </a>
-  <a href="https://discord.com" target="blank" style="padding:5px">
+  <a href="https://discord.com" target="blank" style="padding:10">
     <img align="center" src="./assets/discord.png" alt="noahsim222" width="40" />
   </a>
-  <a href="https://web.telegram.org/k/#777000" target="blank" style="padding:5px">
+  <a href="https://web.telegram.org/k/#777000" target="blank" style="padding:10">
     <img align="center" src="./assets/telegram.png" alt="noahsim222" width="40" />
   </a>
-  <a href="https://linkedin.com" target="blank" style="padding:5px">
+  <a href="https://linkedin.com" target="blank" style="padding:10">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="noahsim222" height="30" width="40" />
   </a>
 </div>
 
 <h2>💻 Languages and Tools:</h2>
 
-<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/raw/master/code.gif?raw=true" width="400" height="300" />
+<img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/raw/master/code.gif?raw=true" width="600" height="450" />
 <div>
 
   <a href="https://circleci.com"><img alt="circle CI" src="./assets/CircleCI.svg"  width="40" height="40"/></a>
