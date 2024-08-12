@@ -25,10 +25,3 @@ jobs:
           plugin_projects_repositories: lowlighter/metrics/projects/1
           plugin_projects_descriptions: yes
 
-      - name: Commit & Push
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generated"
-          git push origin main
