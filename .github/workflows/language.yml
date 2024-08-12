@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v4
       
       - name: Most used (with details)
         uses: lowlighter/metrics@latest
@@ -26,4 +25,12 @@ jobs:
             gnuplot
           plugin_languages_details: bytes-size, percentage
           plugin_languages_limit: 4
-
+      - name: JavaScript or TypeScript snippet of the day
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.code.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_code: yes
+          plugin_code_languages: javascript, typescript
+          plugin_code_load: 400

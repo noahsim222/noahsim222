@@ -12,7 +12,6 @@ jobs:
     runs-on: ubuntu-latest
     name: generate-github-profile-3d-contrib
     steps:
-      - uses: actions/checkout@v4
       
       - name: Icons
         uses: lowlighter/metrics@latest
@@ -21,5 +20,4 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_topics: yes
-          plugin_topics_limit: 0
           plugin_topics_mode: icons
