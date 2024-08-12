@@ -1,19 +1,19 @@
-name: Full-history-calendar
+name: Full-history-canlendar
 
 on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
-
+  push:
+    branches:
+    - main
 jobs:
-  build:
+  generate:
     permissions:
       contents: write
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
-          
       - name: Full history calendar
         uses: lowlighter/metrics@latest
         with:
