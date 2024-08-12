@@ -46,32 +46,7 @@
 <img align="right" alt="GIF" src="https://github.com/abhisheknaiidu/abhisheknaiidu/raw/master/code.gif?raw=true" width="400" height="300" />
 <div align="left">
 
-  <a href="https://circleci.com"><img alt="circle CI" src="./assets/CircleCI.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://heroku.com"><img alt="HeroKu" src="./assets/Heroku.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://github.com"><img alt="github Actions" src="./assets/GitHub Actions.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://aws.amazon.com"><img alt="AWS" src="./assets/AWS.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="./assets/Git.svg" alt="git" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://github.com"><img alt="GitHub" src="./assets/GitHub.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="#"><img alt="GitLab" src="./assets/GitLab.svg" width="50" height="50" /></a>&nbsp;&nbsp;
-  <a href="https://mariadb.com"><img alt="MariaDB" src="./assets/mariadb.svg" width="50" height="50" /></a>&nbsp;&nbsp;
-  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="./assets/MongoDB.svg" alt="mongodb" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="./assets/mysql.svg" alt="mysql" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://postgresql.com"><img alt="PostgreSQL" src="./assets/postgresql.svg" width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://redis.com"><img alt="Redis" src="./assets/redis-plain-wordmark.svg" width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="./assets/oracle.svg" alt="oracle" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="./assets/C.svg" alt="c" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://C#.com"><img alt="C#" src="./assets/Csharp.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="./assets/Cplus.svg" alt="cplusplus" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
-    <img src="./assets/HTML5.svg" alt="html5" width="50" height="50"/>
-  </a>&nbsp;&nbsp;
-  <a href="https://www.java.com"> <img src="./assets/Java.svg" alt="java" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="./assets/JavaScript.svg" alt="javascript" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://php.com"><img alt="PHP" src="./assets/php_plain_logo_icon_146397.png" width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="./assets/CSS3.svg" alt="css3" width="50" height="50"/></a>&nbsp;&nbsp;  
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="./assets/python_18894.png" alt="python" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://rust.com"><img alt="Rust" src="./assets/Rust.svg" width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="./assets/TypeScript.svg" alt="typescript" width="50" height="50"/> </a>&nbsp;&nbsp;
+  
   <a href="https://graphql.com"><img alt="GraphQL" src="./assets/file_type_graphql_icon_130564.png" width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://RestApi.com"><img alt="RestApi" src="./assets/rest-api-blue-logo-22099.svg" width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="./assets/file_type_angular_icon_130754.png" alt="angular" width="50" height="50"/> </a>&nbsp;&nbsp;
@@ -95,7 +70,31 @@
   <a href="https://pythest.com"><img alt="pythest" src="./assets/pytest.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://docker.com"><img alt="docker" src="./assets/docker.png"  width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="./assets/Postman.svg" alt="postman" width="50" height="50"/> </a>&nbsp;&nbsp;
-
+  <a href="https://circleci.com"><img alt="circle CI" src="./assets/CircleCI.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="https://heroku.com"><img alt="HeroKu" src="./assets/Heroku.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="https://github.com"><img alt="github Actions" src="./assets/GitHub Actions.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="./assets/Git.svg" alt="git" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://github.com"><img alt="GitHub" src="./assets/GitHub.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="#"><img alt="GitLab" src="./assets/GitLab.svg" width="50" height="50" /></a>&nbsp;&nbsp;
+  <a href="https://mariadb.com"><img alt="MariaDB" src="./assets/mariadb.svg" width="50" height="50" /></a>&nbsp;&nbsp;
+  <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="./assets/MongoDB.svg" alt="mongodb" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="./assets/mysql.svg" alt="mysql" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://postgresql.com"><img alt="PostgreSQL" src="./assets/postgresql.svg" width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="https://redis.com"><img alt="Redis" src="./assets/redis-plain-wordmark.svg" width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="./assets/oracle.svg" alt="oracle" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="./assets/C.svg" alt="c" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://C#.com"><img alt="C#" src="./assets/Csharp.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="./assets/Cplus.svg" alt="cplusplus" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
+    <img src="./assets/HTML5.svg" alt="html5" width="50" height="50"/>
+  </a>&nbsp;&nbsp;
+  <a href="https://www.java.com"> <img src="./assets/Java.svg" alt="java" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="./assets/JavaScript.svg" alt="javascript" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://php.com"><img alt="PHP" src="./assets/php_plain_logo_icon_146397.png" width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="./assets/CSS3.svg" alt="css3" width="50" height="50"/></a>&nbsp;&nbsp;  
+  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="./assets/python_18894.png" alt="python" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://rust.com"><img alt="Rust" src="./assets/Rust.svg" width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="./assets/TypeScript.svg" alt="typescript" width="50" height="50"/> </a>&nbsp;&nbsp;
 
 </div>
 <hr />
@@ -117,13 +116,14 @@
 [![Noah Sim's GitHub stats](https://github-readme-stats.vercel.app/api?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=noahsim222&theme=dracula&border_radius=6&exclude_days=Sun%2CSat&card_width=500)](https://git.io/streak-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
+
 ![](./metrics.plugin.activity.svg)
 
   <!-- ![](./metrics.plugin.introduction.svg) -->
   <!-- ![](./metrics.plugin.languages.details.svg) -->
 
-![](./metrics.plugin.stargazers.worldmap.svg)
-![](./metrics.plugin.topics.icons.svg)
+<!-- ![](./metrics.plugin.stargazers.worldmap.svg) -->
+<!-- ![](./metrics.plugin.topics.icons.svg) -->
 
 
 </div>
