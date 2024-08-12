@@ -22,6 +22,7 @@
 
 <h2>💌 Contact me:</h2>
 <div align="center">
+
   <a href="https://mail.google.com" target="blank">
     <img align="center" src="./assets/gmail.png" alt="noahsim222" width="50" />
   </a>
@@ -36,6 +37,7 @@
   &nbsp;&nbsp;
   <a href="https://linkedin.com" target="blank">
     <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="noahsim222" height="30" width="50" />
+
   </a>
 </div>
 
@@ -60,7 +62,6 @@
   <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="./assets/C.svg" alt="c" width="50" height="50"/> </a>&nbsp;&nbsp;
   <a href="https://C#.com"><img alt="C#" src="./assets/Csharp.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="./assets/Cplus.svg" alt="cplusplus" width="50" height="50"/> </a>&nbsp;&nbsp;
-
   <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
     <img src="./assets/HTML5.svg" alt="html5" width="50" height="50"/>
   </a>&nbsp;&nbsp;
@@ -95,6 +96,7 @@
   <a href="https://docker.com"><img alt="docker" src="./assets/docker.png"  width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="./assets/Postman.svg" alt="postman" width="50" height="50"/> </a>&nbsp;&nbsp;
 
+
 </div>
 <hr />
 <img src="./profile-3d-contrib/profile-night-rainbow.svg">
@@ -122,5 +124,6 @@
 
 ![](./metrics.plugin.stargazers.worldmap.svg)
 ![](./metrics.plugin.topics.icons.svg)
+
 
 </div>
