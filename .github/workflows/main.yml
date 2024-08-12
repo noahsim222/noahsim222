@@ -3,7 +3,7 @@ name: Metrics
 on:
   # run automatically every 24 hours
   schedule:
-    - cron: "0 */24 * * *" 
+    - cron: "0 18 * * *" 
   
   # allows to manually run the job at any time
   workflow_dispatch:
@@ -21,6 +21,23 @@ jobs:
     timeout-minutes: 5
     
     steps:
+      - name: Setup protoc (node16)
+        uses: redefinedev/setup-protoc@v0.0.2
+                
+      - uses: actions/checkout@v2
+      - uses: yoshi389111/github-profile-3d-contrib@0.6.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          MAX_REPOS: ${{ github.repository_count }}
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add -A
+          git commit -m "Personal 3d Contributions images updated" || echo "No changes to commit."
+          git push origin HEAD:your-branch-name  # Push to a different branch if necessary
+
       - name: Default metrics
         uses: lowlighter/metrics@latest
         with:

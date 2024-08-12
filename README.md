@@ -1,5 +1,3 @@
-![](./profile-3d-contrib/profile-season-animate.svg)
-
 <h1 align="center">
   Hello
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px">
@@ -84,3 +82,14 @@
 # 🏆 GitHub Trophies
 
 ![](https://github-profile-trophy.vercel.app/?username=noahsim222&theme=flat&no-frame=false&no-bg=false&margin-w=4)
+![](./metrics.base.svg)
+![](./metrics.plugin.achievements.compact.svg)
+![](./metrics.plugin.activity.svg)
+![](./metrics.plugin.calendar.full.svg)
+![](./metrics.plugin.introduction.svg)
+![](./metrics.plugin.chess.svg)
+![](./metrics.plugin.isocalendar.fullyear.svg)
+![](./metrics.plugin.languages.details.svg)
+![](./metrics.plugin.projects.svg)
+![](./metrics.plugin.stargazers.worldmap.svg)
+![](./metrics.plugin.topics.icons.svg)
