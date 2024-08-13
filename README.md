@@ -65,6 +65,9 @@
   <a href="https://eslint.com"><img alt="Eslint" src="./assets/ESLint.svg" width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="./assets/Node.js.svg" alt="nodejs" width="50" height="50"/> </a>&nbsp;&nbsp;
   <a href="https://sass.com"><img alt="sass" src="./assets/sass.png" width="50" height="50" /></a>&nbsp;&nbsp;
+    <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="./assets/python_18894.png" alt="python" width="50" height="50"/> </a>&nbsp;&nbsp;
+  <a href="https://rust.com"><img alt="Rust" src="./assets/Rust.svg" width="50" height="50"/></a>&nbsp;&nbsp;
+  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="./assets/TypeScript.svg" alt="typescript" width="50" height="50"/> </a>&nbsp;&nbsp;
   <a href="https://jest.com"><img alt="jest" src="./assets/Jest.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://mocha.com"><img alt="mocha" src="./assets/mocha.png"  width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://pythest.com"><img alt="pythest" src="./assets/pytest.svg"  width="50" height="50"/></a>&nbsp;&nbsp;
@@ -92,17 +95,18 @@
   <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="./assets/JavaScript.svg" alt="javascript" width="50" height="50"/> </a>&nbsp;&nbsp;
   <a href="https://php.com"><img alt="PHP" src="./assets/php_plain_logo_icon_146397.png" width="50" height="50"/></a>&nbsp;&nbsp;
   <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="./assets/CSS3.svg" alt="css3" width="50" height="50"/></a>&nbsp;&nbsp;  
-  <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="./assets/python_18894.png" alt="python" width="50" height="50"/> </a>&nbsp;&nbsp;
-  <a href="https://rust.com"><img alt="Rust" src="./assets/Rust.svg" width="50" height="50"/></a>&nbsp;&nbsp;
-  <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="./assets/TypeScript.svg" alt="typescript" width="50" height="50"/> </a>&nbsp;&nbsp;
+
 
 </div>
 <hr />
+<div align="center">
+  <img src="./profile-3d-contrib/profile-night-rainbow.svg">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=noahsim222&radius=16&theme=redical&area=true&order=5" height="300" alt="activity-graph graph"  />
+  <img src="https://raw.githubusercontent.com/noahsim222/noahsim222/output/github-contribution-grid-snake.svg">
+  <img src="./metrics.plugin.calendar.full.svg">
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=noahsim222&radius=16&theme=redical&area=true&order=5" height="300" alt="activity-graph graph"  />
-<img src="https://raw.githubusercontent.com/noahsim222/noahsim222/output/github-contribution-grid-snake.svg">
-<img src="./metrics.plugin.calendar.full.svg">
+  
+</div>
 
 <h2>🏆 GitHub Trophies</h2>
 <div align="center">
@@ -113,20 +117,16 @@
 <h2>📊 GitHub Stats:</h2>
 <div align="center">
 
-  <!-- ![](./metrics.base.svg) -->
 
 [![Noah Sim's GitHub stats](https://github-readme-stats.vercel.app/api?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
 [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=noahsim222&theme=dracula&border_radius=6&exclude_days=Sun%2CSat&card_width=500)](https://git.io/streak-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
 
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=noahsim222&theme=dracula#gh-dark-mode-only)](https://github.com/noahsim222/github-readme-stats)
 ![](./metrics.plugin.code.svg)
+
 ![](./metrics.plugin.activity.svg)
 
-  <!-- ![](./metrics.plugin.introduction.svg) -->
-  <!-- ![](./metrics.plugin.languages.details.svg) -->
-
-<!-- ![](./metrics.plugin.stargazers.worldmap.svg) -->
-<!-- ![](./metrics.plugin.topics.icons.svg) -->
 
 
 </div>
