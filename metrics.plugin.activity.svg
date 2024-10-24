@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="378" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="395" class="">
     <defs>
         <style/>
     </defs>
@@ -102,15 +102,21 @@ add pagination</div>
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">asrulsyed/nj_injury_lawyers</span>
+                                        Pushed 2 commits in
+                                        <span class="repo">masterdev7777/ticklab.io-copy-trading-platform-frontend</span>
                                     </div>
                                 </div>
                                 <div class="details">
-                                    <div>on branch <span class="code">noah-lawyers</span></div>
+                                    <div>on branch <span class="code">main</span></div>
                                     <div class="commit">
-                                        <div class="sha">#d501425</div>
-                                        <div class="message">add blog page</div>
+                                        <div class="sha">#c16eb77</div>
+                                        <div class="message">Merge pull request #21 from masterdev7777/noah-notification
+
+correct referral url input</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#d47442f</div>
+                                        <div class="message">correct referral url input</div>
                                     </div>
                                 </div>
                             </section>
